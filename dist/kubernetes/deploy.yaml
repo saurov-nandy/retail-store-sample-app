@@ -352,15 +352,6 @@ spec:
             medium: Memory
 
 ---
-# Source: catalog/templates/mysql-secret.yaml
-apiVersion: v1
-kind: Secret
-metadata:
-  name: catalog-db
-data:
-  username: "Y2F0YWxvZw=="
-  password: "amJrcHh0Y3pkZHhqU21EaA=="
----
 # Source: carts/templates/serviceaccount.yaml
 apiVersion: v1
 kind: ServiceAccount
